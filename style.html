@@ -11,17 +11,16 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: black;
 }
 
 body {
-    display: flex;
+    overflow: hidden;
 }
 
 img {
-    width: 100%;
-    height: 100dvh; /* cheia pentru mobil */
-    object-fit: contain; /* sau cover */
+    width: 100vw;
+    height: 100dvh; /* full screen real pe mobil */
+    object-fit: cover; /* umple complet ecranul */
 }
 </style>
 
@@ -30,4 +29,5 @@ img {
 <img src="try2.png" alt="Meniu Nuntă">
 </body>
 </html>
+
 
